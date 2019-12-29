@@ -1,0 +1,236 @@
+/*Author Info
+Name : Tusher Das
+Mail add : tusherd3@gmail.com
+*/
+
+/*
+=====Index=====
+
+1. Fusce at
+2. Facilisis
+3. Ante Donec
+4. Blandit Rhoncus
+5. Placerat
+================
+*/
+
+/* Gloval CSS */
+h1{
+
+}
+h2{
+	font-family: 'Roboto Slab light bold', serif;
+	color: white;
+	font-size: 72px;
+}
+h4{
+	font-size: 30px;
+	color: white;
+	font-family: 'Roboto Slab bold', serif;
+}
+h3{
+	font-size: 30px;
+	color: black;
+	font-family: 'Roboto Slab bold', serif;
+}
+h5 {
+    font-size: 24px;
+    color: black;
+    font-family: 'Roboto Slab light bold', serif;
+    padding: 35px 0px 0px;
+}
+p{
+	font-size: 15px;
+	color: white;
+	font-family: 'Roboto Slab light', serif;
+}
+.btn {
+    margin: 35px auto 100px;
+    background-color: white;
+    color: #4e5159;
+    border: none;
+    font-size: 15px;
+    padding: 13px 47px;
+    border-radius: 20px;
+    font-family: 'Roboto light', serif;
+}
+.img-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+/*Header*/
+.nav-head{
+	background-color: #edeff1 !important;
+	padding: 20px 0px;
+}
+.nav-link{
+	color: black;
+}
+.nav-link.js-scroll-trigger.active {
+    background-color: #dd4b2b;
+    border-radius: 20px;
+    padding: 5px 22px;
+    color: white;
+}
+
+/*Hero section*/
+.hero{
+	background: url(../img/banner.png)center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hero-top{
+	text-align: center;
+	padding: 485px 0px 120px;
+}
+.hero-top p{
+	font-family: 'Roboto Slab light bold', serif;
+	color: white;
+	font-size: 30px;
+}
+.hero-main{
+	text-align: center;
+}
+.btn-cstm {
+    margin: 75px auto 135px;
+    background-color: white;
+    color: #612316;
+    border: none;
+    font-size: 18px;
+    padding: 11px 47px;
+    border-radius: 20px;
+    font-family: 'Roboto Slab regular', serif;
+}
+
+/*Sec-one*/
+.sec-one{
+	background-color: #edeff1;
+}
+.sec-top{
+	text-align: center;
+	padding: 80px 0px 85px;
+}
+.sec-main{
+	text-align: center;
+}
+.sec-main p{
+	font-size: 15px;
+	color: black;
+	font-family: 'Roboto Slab light bold', serif;
+}
+
+/*Sec-two*/
+.sec-two{
+	background: url(../img/newsletter.png)center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 90px 0px 105px;
+}
+.sect-main{
+	text-align: center;
+}
+.parent{
+	position: relative;
+}
+.child {
+    position: absolute;
+    left: 59%;
+    top: 2%;
+}
+.from-control {
+    font-family: 'Roboto Slab regular', serif;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: #ffffff33;
+    border: none;
+}
+.sub {
+    background-color: white;
+    color: #612316;
+    border: none;
+    font-size: 18px;
+    padding: 5px 36px;
+    border-radius: 20px;
+    font-family: 'Roboto Slab regular', serif;
+}
+
+/*Sec-three*/
+.sec-three{
+	padding: 65px 0px 85px;
+}
+.sect-main{
+	padding-top: 85px;
+}
+.sect-main p{
+	font-size: 16px;
+	color: black;
+	font-family: 'Roboto light', serif;
+
+}
+.bton-cstm{
+	background-color: #dd4b2b;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 36px;
+    border-radius: 20px;
+    font-family: 'Roboto Slab regular', serif;
+}
+.bt-cstm{
+	background-color: #4b4e73;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 5px 36px;
+    border-radius: 20px;
+    font-family: 'Roboto Slab regular', serif;
+}
+
+/*sec-four*/
+.sec-four{
+	padding: 95px 0px 75px;
+	background-color: #d75d0e;
+}
+.sec-four p{
+	font-size: 18px;
+	color: white;
+	font-family: 'Roboto Slab regular', serif;
+	text-align: center;
+}
+
+/*Footer*/
+.foot{
+	background: url(../img/newsletter.png)center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 90px 0px 240px;
+}
+.foot p{
+	font-size: 18px;
+	font-family: 'Roboto Slab light bold', serif;
+	text-align: center;
+}
+
+
+
+/*Media Query*/
+@media (min-width: 320px) and (max-width: 500px){
+.im-media {
+    margin: 0px 105px;
+}
+.fa.fa-home {
+    font-size: 54px;
+    margin: -10px 0px 0px -40px;
+}
+.ig-media {
+    margin: 10% 0%;
+}
+}
